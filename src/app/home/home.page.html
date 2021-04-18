@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-title color="secondary">Locals</ion-title>
+    <!-- <ion-buttons slot="end">
+      <ion-menu-button autoHide="false" ng-click="openMenu()"></ion-menu-button>
+
+    </ion-buttons> -->
+  </ion-toolbar>
+ </ion-header>
+
+ <ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/welcome.png" alt="Logo">
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title color="secondary">Locals</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Locals is a community that will ‘make foreign countries feel less foregin’. It aims to connect locals within their own communities and abroad by giving them a platform to share their experiences and insight with their neighbours and those who appreciate their culture.
+
+    </ion-card-content>
+    <ion-button expand="block" (click)="logout()">
+      Logout
+    </ion-button>
+  </ion-card>
+ </ion-content>
